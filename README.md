@@ -2,7 +2,7 @@
   <table border="0">
     <tr>
       <td width="80">
-        <img src="download.gif" width="75" height="75" style="border-radius: 6px;">
+        <img src="./download.gif" width="75" height="75" style="border-radius: 6px;">
       </td>
       <td>
         <strong>Bring Me To Life</strong> ★★★★☆<br>
