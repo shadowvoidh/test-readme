@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="120" viewBox="0 0 450 120" fill="none">
+  <!-- Background Fundo Escuro -->
+  <rect width="450" height="120" rx="12" fill="#181818"/>
+  
+  <!-- Capa do Álbum (Embutida) -->
+  <clipPath id="clip-album">
+    <rect x="12" y="12" width="96" height="96" rx="8" />
+  </clipPath>
+  <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAAYABgBAREA/9oACAEBAAEA/9k=" x="12" y="12" width="96" height="96" clip-path="url(#clip-album)" />
+
+  <!-- Título e Artista -->
+  <text x="120" y="38" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold">Bring Me To Life</text>
+  <text x="120" y="56" fill="#B3B3B3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12">Evanescence</text>
+
+  <!-- Botão Salvar no Spotify -->
+  <circle cx="128" cy="74" r="8" stroke="#B3B3B3" stroke-width="1.5" fill="none"/>
+  <line x1="128" y1="70" x2="128" y2="78" stroke="#B3B3B3" stroke-width="1.5"/>
+  <line x1="124" y1="74" x2="132" y2="74" stroke="#B3B3B3" stroke-width="1.5"/>
+  <text x="142" y="78" fill="#B3B3B3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11">Salvar no Spotify</text>
+
+  <!-- Barra de Progresso e Tempo -->
+  <rect x="120" y="98" width="220" height="3" rx="1.5" fill="#4D4D4D"/>
+  <text x="350" y="102" fill="#B3B3B3" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10">03:55</text>
+
+  <!-- Ícone de Opções (...) -->
+  <circle cx="388" cy="88" r="1.5" fill="#B3B3B3"/>
+  <circle cx="394" cy="88" r="1.5" fill="#B3B3B3"/>
+  <circle cx="400" cy="88" r="1.5" fill="#B3B3B3"/>
+
+  <!-- Logo do Spotify Oficial (Canto Superior Direito) -->
+  <g transform="translate(416, 16) scale(0.12)">
+    <circle cx="84" cy="84" r="84" fill="#1DB954"/>
+    <path fill="#FFFFFF" d="M122.416 121.192c-1.505 2.467-4.721 3.238-7.182 1.728-19.68-12.023-44.453-14.738-73.621-8.074-2.809.641-5.613-1.121-6.254-3.926-.641-2.81 1.121-5.613 3.926-6.254 31.902-7.293 59.273-3.832 81.402 9.695 2.461 1.51 3.232 4.726 1.729 7.181zm10.254-22.805c-1.895 3.078-5.918 4.04-8.996 2.148-22.523-13.844-56.863-17.852-83.504-9.762-3.473 1.055-7.145-1.012-8.2-4.484-1.055-3.473 1.012-7.145 4.484-8.2 30.457-9.242 68.281-4.762 94.066 11.102 3.078 1.891 4.043 5.914 2.15 8.996zm.883-23.742c-26.992-16.031-71.52-17.516-97.234-9.711-4.137 1.258-8.512-1.082-9.77-5.223-1.258-4.14 1.082-8.512 5.223-9.77 29.508-8.957 78.648-7.18 109.77 11.293 3.723 2.21 4.938 7.023 2.727 10.746-2.21 3.719-7.02 4.938-10.716 2.665z"/>
+  </g>
+
+  <!-- Botão Play Canto Inferior -->
+  <circle cx="426" cy="88" r="11" fill="#FFFFFF"/>
+  <polygon points="424,83 431,88 424,93" fill="#000000"/>
+</svg>
