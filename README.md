@@ -1,15 +1,15 @@
-## 📐 Diagrama de Classes
-
-```mermaid
-classDiagram
-    class Funcionario {
-        +String nome
-        +float salario
-        +calcular_bonus() float
-    }
-    class Gerente {
-        +String departamento
-        +calcular_bonus() float
-    }
-    Funcionario <|-- Gerente : Herda
-```
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="80">
+        <img src="download.gif" width="75" height="75" style="border-radius: 6px;">
+      </td>
+      <td>
+        <strong>Bring Me To Life</strong> ★★★★☆<br>
+        <small>Evanescence</small><br>
+        <sub>0:24 ▬🔘▬▬▬▬▬▬▬▬▬▬▬▬ 4:56</sub><br>
+        <sub>⏮ ⏸ ⏭ 🔄 🔊</sub>
+      </td>
+    </tr>
+  </table>
+</div>
